@@ -1,3 +1,23 @@
 .banner-left {
   background-image: url(../images/banner-bg.jpg);
 }
+.banner-right {
+  background-image: url(../images/banner-right-bg.jpg);
+}
+.browse-category {
+  background-image: url(../images/category-bg.jpg);
+}
+
+.notable-collection-section {
+  background-image: url(../images/notable-collection-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.cta-section .container {
+  background-image: url(/images/cta-bg.jpg);
+}
+
+footer {
+  background-color: #1f2330;
+}

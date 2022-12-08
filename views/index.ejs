@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>NFT marketplace</title>
 
     <!-- styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
@@ -70,15 +71,459 @@
       <div class="banner-left">
         <h1>A NFTs Marketplace</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in magna</p>
-        <a href="#" class="btn btn-primary">Get Started</a>
+        <a href="#" class="btn btn-primary rounded-pill">Get Started</a>
       </div>
       <div class="banner-right">
-        <div class="banner-sliders"></div>
+        <div class="banner-sliders">
+          <div class="banner-single-slide">
+            <div class="banner-slide-thumb">
+              <img src="/images/banner-slide-1.png" alt="" />
+              <h3>Name of the art <span class="d-block">0.04 ETH</span></h3>
+            </div>
+          </div>
+          <div class="banner-single-slide">
+            <div class="banner-slide-thumb">
+              <img src="/images/banner-slide-2.png" alt="" />
+              <h3>Name of the art <span class="d-block">0.04 ETH</span></h3>
+            </div>
+          </div>
+          <div class="banner-single-slide">
+            <div class="banner-slide-thumb">
+              <img src="/images/banner-slide-3.png" alt="" />
+              <h3>Name of the art <span class="d-block">0.04 ETH</span></h3>
+            </div>
+          </div>
+          <div class="banner-single-slide">
+            <div class="banner-slide-thumb">
+              <img src="/images/banner-slide-2.png" alt="" />
+              <h3>Name of the art <span class="d-block">0.04 ETH</span></h3>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
+    <!-- nft table -->
+    <section id="nft-table-section">
+      <img class="position-absolute" src="/images/shape-right.png" alt="" />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="nft-table">
+              <div class="table-top d-flex justify-content-between">
+                <div class="table-top-left">
+                  <button class="btn btn-warning rounded-pill">Trending</button>
+                  <button class="btn btn-danger rounded-pill">Top</button>
+                </div>
+                <div class="table-top-right">
+                  <select class="form-select">
+                    <option value="24hr">24 Hr</option>
+                    <option value="12hr">12 Hr</option>
+                  </select>
+                  <div class="all-chains">
+                    <div>
+                      All chains: <span><img src="/images/collections/1.png" alt="" /></span> <span><img src="/images/collections/2.png" alt="" /></span
+                      ><span><img src="/images/collections/3.png" alt="" /></span> <span><img src="/images/collections/4.png" alt="" /> </span>
+                      <span><img src="/images/collections/5.png" alt="" /></span>
+                    </div>
+                  </div>
+                  <button class="btn btn-danger rounded-pill">View All</button>
+                </div>
+              </div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Collection</th>
+                    <th>Floor Price</th>
+                    <th>Volume</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="nft-icon">
+                        <span>1</span>
+                        <img src="/images/nft-icon.png" alt="" />
+                      </div>
+                      <h4>Aboard NFTs</h4>
+                    </td>
+                    <td>0.01 ETH</td>
+                    <td>3ETH</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="nft-icon">
+                        <span>2</span>
+                        <img src="/images/nft-icon.png" alt="" />
+                      </div>
+                      <h4>Aboard NFTs</h4>
+                    </td>
+                    <td>0.01 ETH</td>
+                    <td>3ETH</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="nft-icon">
+                        <span>3</span>
+                        <img src="/images/nft-icon.png" alt="" />
+                      </div>
+                      <h4>Aboard NFTs</h4>
+                    </td>
+                    <td>0.01 ETH</td>
+                    <td>3ETH</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="nft-icon">
+                        <span>4</span>
+                        <img src="/images/nft-icon.png" alt="" />
+                      </div>
+                      <h4>Aboard NFTs</h4>
+                    </td>
+                    <td>0.01 ETH</td>
+                    <td>3ETH</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="nft-icon">
+                        <span>5</span>
+                        <img src="/images/nft-icon.png" alt="" />
+                      </div>
+                      <h4>Aboard NFTs</h4>
+                    </td>
+                    <td>0.01 ETH</td>
+                    <td>3ETH</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="nft-icon">
+                        <span>6</span>
+                        <img src="/images/nft-icon.png" alt="" />
+                      </div>
+                      <h4>Aboard NFTs</h4>
+                    </td>
+                    <td>0.01 ETH</td>
+                    <td>3ETH</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="nft-icon">
+                        <span>7</span>
+                        <img src="/images/nft-icon.png" alt="" />
+                      </div>
+                      <h4>Aboard NFTs</h4>
+                    </td>
+                    <td>0.01 ETH</td>
+                    <td>3ETH</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="nft-icon">
+                        <span>8</span>
+                        <img src="/images/nft-icon.png" alt="" />
+                      </div>
+                      <h4>Aboard NFTs</h4>
+                    </td>
+                    <td>0.01 ETH</td>
+                    <td>3ETH</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="nft-icon">
+                        <span>9</span>
+                        <img src="/images/nft-icon.png" alt="" />
+                      </div>
+                      <h4>Aboard NFTs</h4>
+                    </td>
+                    <td>0.01 ETH</td>
+                    <td>3ETH</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="nft-icon">
+                        <span>10</span>
+                        <img src="/images/nft-icon.png" alt="" />
+                      </div>
+                      <h4>Aboard NFTs</h4>
+                    </td>
+                    <td>0.01 ETH</td>
+                    <td>3ETH</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- collections -->
+    <section class="notable-collection-section">
+      <img class="position-absolute" src="/images/shape-left.png" alt="" />
+      <div id="notable-collections">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-title">
+                <h2>Notable collections</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collection-slider-area">
+          <div class="collection-slides">
+            <div class="single-collection-slide">
+              <img src="/images/notable-collections/1.png" alt="" />
+              <div class="single-collection-slide-description">
+                <img src="/images/s.png" alt="" />
+                <h3>The Sandbox California</h3>
+              </div>
+            </div>
+            <div class="single-collection-slide">
+              <img src="/images/notable-collections/2.png" alt="" />
+              <div class="single-collection-slide-description">
+                <img src="/images/s.png" alt="" />
+                <h3>The Sandbox California</h3>
+              </div>
+            </div>
+            <div class="single-collection-slide">
+              <img src="/images/notable-collections/3.png" alt="" />
+              <div class="single-collection-slide-description">
+                <img src="/images/s.png" alt="" />
+                <h3>The Sandbox California</h3>
+              </div>
+            </div>
+            <div class="single-collection-slide">
+              <img src="/images/notable-collections/4.png" alt="" />
+              <div class="single-collection-slide-description">
+                <img src="/images/s.png" alt="" />
+                <h3>The Sandbox California</h3>
+              </div>
+            </div>
+            <div class="single-collection-slide">
+              <img src="/images/notable-collections/5.png" alt="" />
+              <div class="single-collection-slide-description">
+                <img src="/images/s.png" alt="" />
+                <h3>The Sandbox California</h3>
+              </div>
+            </div>
+            <div class="single-collection-slide">
+              <img src="/images/notable-collections/2.png" alt="" />
+              <div class="single-collection-slide-description">
+                <img src="/images/s.png" alt="" />
+                <h3>The Sandbox California</h3>
+              </div>
+            </div>
+            <div class="single-collection-slide">
+              <img src="/images/notable-collections/3.png" alt="" />
+              <div class="single-collection-slide-description">
+                <img src="/images/s.png" alt="" />
+                <h3>The Sandbox California</h3>
+              </div>
+            </div>
+            <div class="single-collection-slide">
+              <img src="/images/notable-collections/1.png" alt="" />
+              <div class="single-collection-slide-description">
+                <img src="/images/s.png" alt="" />
+                <h3>The Sandbox California</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- spotlight -->
+      <div id="spotlight">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 d-flex justify-content-between align-items-center">
+              <div class="section-title">
+                <h2>BNB Chain NFT spotlight</h2>
+              </div>
+              <a href="#" class="btn btn-danger">View All</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="spotlight-item">
+                <img src="/images/spotlight/1.png" alt="" />
+                <div class="spotlight-meta">
+                  <img src="/images/spotlight/meta-1.png" alt="" />
+                  <h4>Pancake Squad</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="spotlight-item">
+                <img src="/images/spotlight/2.png" alt="" />
+                <div class="spotlight-meta">
+                  <img src="/images/spotlight/meta-1.png" alt="" />
+                  <h4>Pancake Squad</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- browse by category -->
+    <section id="browse-category" class="browse-category">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Browse by category</h2>
+          </div>
+        </div>
+      </div>
+      <div class="category-slider-area">
+        <div class="category-slider">
+          <div class="category-slide-item">
+            <img src="/images/category/1.png" alt="" />
+            <h3>Art</h3>
+          </div>
+          <div class="category-slide-item">
+            <img src="/images/category/2.png" alt="" />
+            <h3>Music</h3>
+          </div>
+          <div class="category-slide-item">
+            <img src="/images/category/3.png" alt="" />
+            <h3>Photography</h3>
+          </div>
+          <div class="category-slide-item">
+            <img src="/images/category/4.png" alt="" />
+            <h3>Trading Card</h3>
+          </div>
+          <div class="category-slide-item">
+            <img src="/images/category/5.png" alt="" />
+            <h3>Domain Name</h3>
+          </div>
+          <div class="category-slide-item">
+            <img src="/images/category/6.png" alt="" />
+            <h3>Sports</h3>
+          </div>
+          <div class="category-slide-item">
+            <img src="/images/category/3.png" alt="" />
+            <h3>Travel</h3>
+          </div>
+          <div class="category-slide-item">
+            <img src="/images/category/2.png" alt="" />
+            <h3>Business</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+      <!-- cta -->
+      <div class="cta-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="cta-content text-center">
+                <h2>Stay in the loop</h2>
+                <form action="">
+                  <input class="form-control" type="email" placeholder="Your Email" />
+                  <button class="btn btn-primary" type="submit">Sign Up</button>
+                </form>
+                <div class="social-media">
+                  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- main footer -->
+      <div class="footer-section text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-about">
+                <img src="/images/footer-logo.png" alt="" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies mauris non interdum fringilla. Morbi et euismod</p>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h3>Marketplace</h3>
+              <ul>
+                <li><a href="#">All</a></li>
+                <li><a href="#">NFTs</a></li>
+                <li><a href="#">Art</a></li>
+                <li><a href="#">Collectibles</a></li>
+                <li><a href="#">Domain</a></li>
+                <li><a href="#">Names</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Photography</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Trading</a></li>
+                <li><a href="#">Cards</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h3>My Account</h3>
+              <ul>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Favorites</a></li>
+                <li><a href="#">Watchlist</a></li>
+                <li><a href="#">My Collections</a></li>
+                <li><a href="#">Create</a></li>
+                <li><a href="#">Settings</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h3>Resources</h3>
+              <ul>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Platform Status</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Taxes Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Ventures</a></li>
+                <li><a href="#">Grants</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright -->
+      <div class="copyright-section text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="copyright-text">
+                <p>&copy; 2018 - 2022 Name Of Company</p>
+              </div>
+            </div>
+            <div class="col-md-6 text-end">
+              <div class="terms">
+                <ul>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- scripts -->
-    <script src="/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
